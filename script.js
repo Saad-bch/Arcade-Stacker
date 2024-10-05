@@ -1,7 +1,3 @@
-//* -----------------------
-//* PREPARATION PHASE
-//* -----------------------
-
 // Select the relevant elements from the page
 const grid = document.querySelector('.grid');
 const stackBtn = document.querySelector('.stack');
