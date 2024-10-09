@@ -29,9 +29,7 @@ let barSize = 3;
 let isGameOver = false;
 let score = 0;
 
-// *---------------------------
 // * FUNCTIONS
-// *---------------------------
 
 function draw() {
   // First, reset the grid
@@ -203,9 +201,4 @@ function main() {
   draw();
 }
 
-// Start game loop.
-// Every 600ms we call `main`:
-// - `moveBar()` updates the values in the `gridMatrix` variable;
-// - `draw()` updates the display based on the modified `gridMatrix`;
-// We will make use of the `gameInterval` variable later.
 const gameInterval = setInterval(main, 600);
